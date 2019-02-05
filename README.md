@@ -1,6 +1,6 @@
-# Redirect
+# los-angeles
 
-In this example we will be deploying a simple redirect from a `www` domain to a naked one.
+Redirect proxy service named after everyone's favorite airport
 
 ### Deploy with Now
 
