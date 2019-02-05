@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "alias": [
+    "lyrist.app"
+  ],
+  "builds": [
+    { "src": "index.html", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "/", "status": 301, "headers": { "Location": "http://rapbookapp.com/" }},
+    { "src": "/beta", "status": 301, "headers": { "Location": "https://testflight.apple.com/join/x3hOZLt5/" }},
+    { "src": "/download", "status": 301, "headers": { "Location": "https://itunes.apple.com/us/app/rapbook/id1352247113?mt=8" }}
+  ]
+}
